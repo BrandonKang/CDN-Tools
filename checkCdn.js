@@ -286,6 +286,12 @@ function checkCdn(cnames) {
     return 'CDNETWORKS';
   else if (cnames.indexOf('.cdngs.net') > -1)
     return 'CDNETWORKS';
+  else if (cnames.indexOf('.cdnga.net') > -1)
+    return 'CDNETWORKS';
+  else if (cnames.indexOf('.cdngb.net') > -1)
+    return 'CDNETWORKS';
+  else if (cnames.indexOf('.cdngd.net') > -1)
+    return 'CDNETWORKS';
   else if (cnames.indexOf('.speedcdn.net') > -1)
     return 'CDNETWORKS';
 
@@ -362,6 +368,15 @@ function checkCdn(cnames) {
     return 'NHN Corp.';
   else if (cnames.indexOf('.nheos.com') > -1)
     return 'NHN Corp.';
+
+  else if (cnames.indexOf('.cdn1.cafe24.com') > -1)
+    return 'CAFE24.';
+
+  else if (cnames.indexOf('.cdn2.cafe24.com') > -1)
+    return 'CAFE24.';
+
+  else if (cnames.indexOf('.cdn3.cafe24.com') > -1)
+    return 'CAFE24.';
 
   else
     return 'Unknown';
